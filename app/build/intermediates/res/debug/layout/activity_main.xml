@@ -1,0 +1,358 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}"
+     android:background="#00a1f1" >
+
+    <Button
+        android:id="@+id/btnToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Today"
+        android:background="#ccff00"
+        android:textColor="#800000" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="About"
+        android:background="#ccff00"
+        android:textColor="#800000" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Search"
+        android:background="#ccff00"
+        android:textColor="#800000" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnToday" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dip"
+             >
+
+            <TextView
+                android:id="@+id/txtMonthDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:text="Month Day"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#f65314" />
+            
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sehri End"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtSehriEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sehri End"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+              <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Subhe Sadiq"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtSubheSadiq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Subhe Sadiq"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+              <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fajr End"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtFajrEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fajr End"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+              <TextView
+                android:id="@+id/txt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sunrise"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtSunrise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sunrise"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+             <TextView
+                android:id="@+id/txt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ishraq Start"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtIshraqStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ishraq Start"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+
+             
+             
+              <TextView
+                android:id="@+id/txt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ishraq End"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtIshraqEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ishraq End"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+             
+              <TextView
+                android:id="@+id/txt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Mamnu Start"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtMamnuStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mamnu Start"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+              <TextView
+                android:id="@+id/txt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Mamnu End Zuhr Start"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtMamnuEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Mamnu End  Zuhr Start"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+             
+              <TextView
+                android:id="@+id/txt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Zuhr End"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtZuhrEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Zuhr End"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+             
+              <TextView
+                android:id="@+id/txt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Asre Hanfi"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtAsreHanfi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AsreHanfi"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+              <TextView
+                android:id="@+id/txt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Asr End"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtAsrEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asr End"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+             
+              <TextView
+                android:id="@+id/txt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sunset"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtSunset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sunset"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+             <TextView
+                android:id="@+id/txt13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Isha Start"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtIshaStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isha Start"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+              <TextView
+                android:id="@+id/txt14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Midnight"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtMidnight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Midnight"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:textSize="25sp"
+                android:textColor="#f65314" />
+             
+             
+             
+             <TextView
+                android:id="@+id/txt15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Day Time in Hours"
+                android:textSize="20sp"
+                android:textColor="#800000" />            
+             <TextView
+                android:id="@+id/txtDayTimeHours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isha Start"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#f65314" />             
+             
+             
+              
+        </LinearLayout>
+    </ScrollView>
+   
+</RelativeLayout>
+<!-- From: file:/C:/Users/Abiroid/AndroidStudioProjects/PNT/app/src/main/res/layout/activity_main.xml -->

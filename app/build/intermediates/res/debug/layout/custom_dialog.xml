@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="This applilcation will give valueable information about Namaz Timings in Peshawar and the adjacent areas in 10 Miles.\n\nDeveloped by Muhammad Abid"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/abidpassport" />
+
+    <Button
+        android:id="@+id/btnOkay"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Okay" />
+
+</LinearLayout>
+</ScrollView><!-- From: file:/C:/Users/Abiroid/AndroidStudioProjects/PNT/app/src/main/res/layout/custom_dialog.xml -->
